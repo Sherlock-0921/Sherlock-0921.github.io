@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="intro.css">
+  <link rel="icon" href="img/icon.JPG">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"><!-- アイコン -->
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="icon">
+        <img src="img/icon.jpg" alt="My icon">
+      </div>
+      <div class="profile">
+        <h1>戸加里 太一</h1>
+        <p>2002年9月21日生まれ</p>
+        <p>京都の大学2年生</p>
+        <ul>
+            <li id="inst"><i class="fab fa-instagram" style="color:palevioletred"></i></li>
+            <li><i class="fab fa-line" style="color:limegreen" ></i></li>
+        </ul>
+      </div>
+      <!--modal-->
+      <div id="mask" class="hidden"></div>
+      <section id="modal" class="hidden">
+        <div class="inst"><img src="img/qr-insta.png"></div>
+        <div id="close">閉じる</div>
+      </section>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <h1>Project</h1>
+      <section class="animation slide-from-left" >
+        <a href="#"><img src="img/html-img.svg" alt="HTMLの画像" width="400px" height="240px"></a>
+        <h2>HTMLのまとめ</h2>
+        <p>DotInstallとProgateで学んだHTMLについてのまとめ。</p>
+      </section >
+      <section class="animation slide-from-right">
+        <a href="#"><img src="img/css-3-img.svg" alt="CSSの画像" width="400px" height="240px"></a>
+        <h2>CSSのまとめ</h2>
+        <p>DotInstallとProgateで学んだCSSについてのまとめ。</p>
+      </section>
+      <section class="animation slide-from-left">
+        <a href="#"><img src="img/javascript-img.svg" alt="JavaScriptの画像" width="400px" height="240px"></a>
+        <h2>JavaScriptのまとめ</h2>
+        <p>DotInstallとProgateで学んだJavascriptについてのまとめ。</p>
+      </section>
+    </div>
+  </main>
+
+  
+
+  <footer>
+    <small>(c)Taichi Togari</small>
+  </footer>
+
+  <script src="intro.js"></script>
+</body>
+</html>
